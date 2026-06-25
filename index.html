@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Life in the UK Test | Premium Practice</title>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="app-container">
+        <header class="glass-header">
+            <div class="header-content">
+                <h1>🇬🇧 Life in the UK Test</h1>
+                <p>Premium Practice Application</p>
+            </div>
+            <button id="themeToggle" class="icon-btn" aria-label="Toggle Theme">
+                <svg id="moon-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-moon"><path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"/></svg>
+                <svg id="sun-icon" style="display: none;" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-sun"><circle cx="12" cy="12" r="4"/><path d="M12 2v2"/><path d="M12 20v2"/><path d="m4.93 4.93 1.41 1.41"/><path d="m17.66 17.66 1.41 1.41"/><path d="M2 12h2"/><path d="M20 12h2"/><path d="m6.34 17.66-1.41 1.41"/><path d="m19.07 4.93-1.41 1.41"/></svg>
+            </button>
+        </header>
+
+        <nav class="nav-tabs">
+            <button class="nav-btn active" data-tab="dashboard">Dashboard</button>
+            <button class="nav-btn" data-tab="study-plan">Study Plan</button>
+            <button class="nav-btn" data-tab="practice">Practice Tests</button>
+            <button class="nav-btn" data-tab="flashcards">Flashcards</button>
+            <button class="nav-btn" data-tab="timeline">Timeline</button>
+        </nav>
+
+        <main class="content-area">
+            <!-- Dashboard View -->
+            <section id="dashboard" class="view active">
+                <div class="dashboard-grid">
+                    <div class="stat-card glass-panel">
+                        <h3>Tests Taken</h3>
+                        <p id="stat-tests-taken" class="stat-value">0</p>
+                    </div>
+                    <div class="stat-card glass-panel">
+                        <h3>Pass Rate</h3>
+                        <p id="stat-pass-rate" class="stat-value">0%</p>
+                    </div>
+                    <div class="stat-card glass-panel">
+                        <h3>Average Score</h3>
+                        <p id="stat-avg-score" class="stat-value">0</p>
+                    </div>
+                    <div class="stat-card glass-panel">
+                        <h3>Current Streak</h3>
+                        <p id="stat-streak" class="stat-value">0 🔥</p>
+                    </div>
+                </div>
+                <div class="dashboard-actions">
+                    <button id="resetStatsBtn" class="btn btn-danger">Reset Progress</button>
+                </div>
+            </section>
+
+            <!-- Study Plan View -->
+            <section id="study-plan" class="view">
+                <div class="glass-panel" style="padding: 30px;">
+                    <div id="planSetup" style="display: none; text-align: center;">
+                        <h2>Create Your Study Plan</h2>
+                        <p style="margin: 15px 0; color: var(--text-secondary);">Select your exam date to generate a personalized daily schedule.</p>
+                        <input type="date" id="examDateInput" class="search-input" style="margin-bottom: 20px; font-size: 1.2rem;">
+                        <br>
+                        <button id="generatePlanBtn" class="btn btn-primary">Generate Plan</button>
+                    </div>
+
+                    <div id="planActive" style="display: none;">
+                        <div class="plan-header">
+                            <h2>Your Daily Schedule</h2>
+                            <div class="days-remaining">
+                                <span id="daysRemainingNumber">0</span>
+                                <small>Days Left</small>
+                            </div>
+                        </div>
+                        <div class="progress-bar-container" style="margin: 20px 0;">
+                            <div class="progress-bar">
+                                <div id="planProgressFill" class="progress-fill" style="background: var(--success);"></div>
+                            </div>
+                        </div>
+                        <div id="dailyScheduleList" class="timeline-list">
+                            <!-- Populated by JS -->
+                        </div>
+                        <div style="text-align: right; margin-top: 20px;">
+                            <button id="cancelPlanBtn" class="btn btn-danger">Cancel Plan</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Practice Tests View -->
+            <section id="practice" class="view">
+                <div id="testMenu" class="test-menu glass-panel">
+                    <h2>Select a Practice Test</h2>
+                    <div class="mode-selector">
+                        <label class="mode-option">
+                            <input type="radio" name="testMode" value="practice" checked>
+                            <div class="mode-card">
+                                <h3>Practice Mode</h3>
+                                <p>Untimed. Get instant feedback and explanations.</p>
+                            </div>
+                        </label>
+                        <label class="mode-option">
+                            <input type="radio" name="testMode" value="exam">
+                            <div class="mode-card">
+                                <h3>Exam Mode</h3>
+                                <p>45 minutes. 24 random questions. Pass mark: 75%.</p>
+                            </div>
+                        </label>
+                    </div>
+                    <div class="test-grid" id="testSelector">
+                        <!-- Populated by JS -->
+                    </div>
+                    <button id="startRandomExamBtn" class="btn btn-primary start-exam-btn" style="display: none; margin-top: 20px;">Start Random Exam</button>
+                </div>
+
+                <div id="testContent" class="test-content" style="display: none;">
+                    <div class="test-header">
+                        <div id="examTimer" class="timer" style="display: none;">45:00</div>
+                        <div class="progress-bar-container">
+                            <div class="progress-bar">
+                                <div id="progressFill" class="progress-fill"></div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="question-container glass-panel">
+                        <div class="question-header">
+                            <span id="questionNumber" class="question-number">Question 1 of 24</span>
+                        </div>
+                        <h2 id="questionText" class="question-text">Question text goes here</h2>
+                        
+                        <div id="optionsContainer" class="options-container">
+                            <!-- Populated by JS -->
+                        </div>
+
+                        <div id="feedbackMessage" class="feedback-message"></div>
+                        <div id="explanationBox" class="explanation-box glass-panel"></div>
+                    </div>
+
+                    <div class="test-controls">
+                        <button id="prevBtn" class="btn btn-secondary">← Previous</button>
+                        <button id="checkAnswerBtn" class="btn btn-primary">Check Answer</button>
+                        <button id="nextBtn" class="btn btn-secondary">Next →</button>
+                        <button id="finishBtn" class="btn btn-primary" style="display: none;">Finish Test</button>
+                    </div>
+                </div>
+
+                <div id="testResults" class="test-results glass-panel" style="display: none;">
+                    <!-- Populated by JS -->
+                </div>
+            </section>
+
+            <!-- Flashcards View -->
+            <section id="flashcards" class="view">
+                <div class="flashcard-controls">
+                    <button id="shuffleCardsBtn" class="btn btn-secondary">Shuffle Cards</button>
+                    <span id="flashcardCounter">Card 1 of X</span>
+                </div>
+                <div class="flashcard-container">
+                    <div id="flashcard" class="flashcard">
+                        <div class="flashcard-inner">
+                            <div class="flashcard-front glass-panel">
+                                <h2 id="flashcardYear" class="flashcard-year">1066</h2>
+                                <p class="flip-hint">Click to flip</p>
+                            </div>
+                            <div class="flashcard-back glass-panel">
+                                <p id="flashcardEvent" class="flashcard-event">Norman Invasion</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flashcard-nav">
+                    <button id="prevCardBtn" class="btn btn-primary">← Prev</button>
+                    <button id="nextCardBtn" class="btn btn-primary">Next →</button>
+                </div>
+            </section>
+
+            <!-- Timeline View -->
+            <section id="timeline" class="view">
+                <div class="timeline-header glass-panel">
+                    <h2>Historical Timeline</h2>
+                    <div class="custom-date-form" style="margin-top: 15px; margin-bottom: 20px; padding: 15px; background: rgba(0,0,0,0.1); border-radius: 8px;">
+                        <h3 style="margin-bottom: 10px;">Add Custom Event</h3>
+                        <div style="display: flex; gap: 10px; flex-wrap: wrap;">
+                            <input type="text" id="customDateYear" class="search-input" placeholder="Year / Date (e.g. 1914)" style="flex: 1; min-width: 150px;">
+                            <input type="text" id="customDateEvent" class="search-input" placeholder="Event description..." style="flex: 2; min-width: 200px;">
+                            <button id="addCustomDateBtn" class="btn btn-primary" style="flex: 0 0 auto;">Add Entry</button>
+                        </div>
+                    </div>
+                    
+                    <input type="text" id="timelineSearch" class="search-input" placeholder="Search timeline (e.g. 1066, War)...">
+                </div>
+                <div id="timelineList" class="timeline-list">
+                    <!-- Populated by JS -->
+                </div>
+            </section>
+        </main>
+    </div>
+    <script src="js/app.js"></script>
+</body>
+</html>
