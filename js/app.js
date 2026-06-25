@@ -1,5 +1,5 @@
 const questionsDB = {
-    "Test 5-5": [
+    "Chapter 5 - Test 5": [
         {
             "question": "The Commonwealth has no power over its members and it cannot suspend their membership:",
             "options": [
@@ -312,7 +312,7 @@ const questionsDB = {
             "explanation": "The public can listen to debates in the Palace of Westminster from public\u00a0galleries in both the House of Commons and the House of Lords."
         }
     ],
-    "Test 26": [
+    "Mock Exam 26": [
         {
             "question": "How many weeks does the orchestral classical music event known as \u2018the Proms\u2019 last for?",
             "options": [
@@ -630,7 +630,7 @@ const questionsDB = {
             "explanation": "The National Trust works for the preservation of important buildings, coastline and countryside in the UK."
         }
     ],
-    "Test 23": [
+    "Mock Exam 23": [
         {
             "question": "How old do you need to be to buy a lottery ticket or scratch card?",
             "options": [
@@ -939,7 +939,7 @@ const questionsDB = {
             "explanation": "The Laurence Olivier Awards take place annually at different venues in London."
         }
     ],
-    "Test 5-6": [
+    "Chapter 5 - Test 6": [
         {
             "question": "Which court deals with the most serious cases of children aged 10 to 17 in England, Wales and Northern Ireland?",
             "options": [
@@ -1244,7 +1244,7 @@ const questionsDB = {
             "explanation": "The monarch has regular meetings with\u00a0the Prime Minister and can advise, warn\u00a0and encourage, but the decisions on\u00a0government policies are made by the\u00a0Prime Minister and cabinet."
         }
     ],
-    "Test 14": [
+    "Mock Exam 14": [
         {
             "question": "Who was known as the Iron Duke?",
             "options": [
@@ -1555,7 +1555,7 @@ const questionsDB = {
             "explanation": "Mary Peters was a talented athlete who won an Olympic gold medal in the pentathlon in 1972."
         }
     ],
-    "Test 22": [
+    "Mock Exam 22": [
         {
             "question": "What was the name of Sir Francis Drake\u2019s ship and which was one of the first to sail around the world?",
             "options": [
@@ -1864,7 +1864,7 @@ const questionsDB = {
             "explanation": "The NSPCC is the National Society for the Prevention of Cruelty to Children."
         }
     ],
-    "Test 4-9": [
+    "Chapter 4 - Test 9": [
         {
             "question": "How many times have the Olympic Games been hosted in the UK?",
             "options": [
@@ -2174,7 +2174,7 @@ const questionsDB = {
             "explanation": "Diwali normally falls in October or November and lasts for five days. It is\u00a0often called the Festival of Lights."
         }
     ],
-    "Test 9": [
+    "Mock Exam 9": [
         {
             "question": "What was inscribed in the first coins to be minted in Britain during the Iron Age?",
             "options": [
@@ -2483,7 +2483,7 @@ const questionsDB = {
             "explanation": "The first farmers arrived in Britain 6,000 years ago."
         }
     ],
-    "Test 25": [
+    "Mock Exam 25": [
         {
             "question": "What does the term \u2018Hansard\u2019 relate to?",
             "options": [
@@ -2792,7 +2792,7 @@ const questionsDB = {
             "explanation": "Many theatres produce a pantomime at Christmas time."
         }
     ],
-    "Test 3-4": [
+    "Chapter 3 - Test 4": [
         {
             "question": "Elizabeth I was the younger daughter of which King?",
             "options": [
@@ -3106,7 +3106,7 @@ const questionsDB = {
             "explanation": "At first the UK\u00a0did not wish to join the EEC but it eventually did so in 1973."
         }
     ],
-    "Test 33": [
+    "Mock Exam 33": [
         {
             "question": "What is the name of the highest mountain in Wales?",
             "options": [
@@ -3412,7 +3412,7 @@ const questionsDB = {
             "explanation": "The open championship is the only \u2018Major\u2019 tournament held outside the United States."
         }
     ],
-    "Test 3-5": [
+    "Chapter 3 - Test 5": [
         {
             "question": "Who defeated the French at the battle of Agincourt in 1415?",
             "options": [
@@ -3724,7 +3724,7 @@ const questionsDB = {
             "explanation": "During the First World War Serbia formed part of the Allied powers."
         }
     ],
-    "Test 5-4": [
+    "Chapter 5 - Test 4": [
         {
             "question": "Which of the following statements is TRUE?",
             "options": [
@@ -4036,7 +4036,7 @@ const questionsDB = {
             "explanation": "The National Anthem of the UK is \u2018God Save the king\u2019."
         }
     ],
-    "Test 2": [
+    "Mock Exam 2": [
         {
             "question": "Which Scottish city is known as the home of golf?",
             "options": [
@@ -4351,7 +4351,7 @@ const questionsDB = {
             "explanation": "British film studios flourished in the 1930s."
         }
     ],
-    "Test 5-10": [
+    "Chapter 5 - Test 10": [
         {
             "question": "How can you visit the Senedd?",
             "options": [
@@ -4645,7 +4645,7 @@ const questionsDB = {
             "explanation": "True. Any man who forces a\u00a0woman to have sex, including a woman\u2019s husband, can be charged with rape."
         }
     ],
-    "Test 3-6": [
+    "Chapter 3 - Test 6": [
         {
             "question": "Who was the first English Prime Minister?",
             "options": [
@@ -4957,7 +4957,7 @@ const questionsDB = {
             "explanation": "In 1996, two British scientists, Sir Ian Wilmot (1944-) and Keith Campbell\u00a0(1954-2012), led a team which was the first to succeed in cloning a\u00a0mammal, Dolly the sheep."
         }
     ],
-    "Test 3": [
+    "Mock Exam 3": [
         {
             "question": "What is the capital city of Northern Ireland?",
             "options": [
@@ -5269,7 +5269,7 @@ const questionsDB = {
             "explanation": "The Roman army left Britain in AD 410 to defend other parts of the Roman Empire and never returned. Britain was again invaded by tribes from northern Europe: the Jutes, the Angles and the Saxons."
         }
     ],
-    "Test 3-9": [
+    "Chapter 3 - Test 9": [
         {
             "question": "The line \u2018a rose by any other name\u2019 belongs to which of the following plays or poems written by William Shakespeare?",
             "options": [
@@ -5581,7 +5581,7 @@ const questionsDB = {
             "explanation": "The period after the Norman Conquest up until about 1485 is called the Middle Ages (or the medieval period)."
         }
     ],
-    "Test 4-1": [
+    "Chapter 4 - Test 1": [
         {
             "question": "Who was the first Briton to win the \u2018Tour de France\u2019?",
             "options": [
@@ -5892,7 +5892,7 @@ const questionsDB = {
             "explanation": "Vaisakhi (also spelled Baisakhi) is a Sikh festival which celebrates the\u00a0founding of the Sikh community known as the Khalsa. It is celebrated on 14\u00a0April each year with parades, dancing and singing."
         }
     ],
-    "Test 5-1": [
+    "Chapter 5 - Test 1": [
         {
             "question": "Members of the European Parliament (MEPs) are elected on the basis of:",
             "options": [
@@ -6205,7 +6205,7 @@ const questionsDB = {
             "explanation": "The Prime Minister appoints about 20 senior MPs to become ministers in\u00a0charge of departments."
         }
     ],
-    "Test 4-5": [
+    "Chapter 4 - Test 5": [
         {
             "question": "Which Scottish city is known as the home of golf?",
             "options": [
@@ -6520,7 +6520,7 @@ const questionsDB = {
             "explanation": "The modern game of golf can be traced back to 15th century Scotland."
         }
     ],
-    "Test 36": [
+    "Mock Exam 36": [
         {
             "question": "Where does the UK Parliament sit?",
             "options": [
@@ -6823,7 +6823,7 @@ const questionsDB = {
             "explanation": "Skara Brae on Orkney, off the north coast of Scotland, is the best preserved prehistoric village in northern Europe."
         }
     ],
-    "Test 4-3": [
+    "Chapter 4 - Test 3": [
         {
             "question": "Which of the following venues is located in Glasgow?",
             "options": [
@@ -7140,7 +7140,7 @@ const questionsDB = {
             "explanation": "Many Muslims sacrifice an animal to eat during Eid ul Adha."
         }
     ],
-    "Test 3-10": [
+    "Chapter 3 - Test 10": [
         {
             "question": "When did the Vikings first visit Britain\u00a0to raid\u00a0coastal towns and take away goods and slaves?",
             "options": [
@@ -7444,7 +7444,7 @@ const questionsDB = {
             "explanation": "These settlements were known as\u00a0plantations."
         }
     ],
-    "Test 31": [
+    "Mock Exam 31": [
         {
             "question": "The UK population is ethnically diverse and changing rapidly, especially in large cities such as London:",
             "options": [
@@ -7749,7 +7749,7 @@ const questionsDB = {
             "explanation": "This is true."
         }
     ],
-    "Test 4-12": [
+    "Chapter 4 - Test 12": [
         {
             "question": "What day does Lent start?",
             "options": [
@@ -8062,7 +8062,7 @@ const questionsDB = {
             "explanation": "In the 2009 Citizenship Survey,\u00a070% of people identified themselves as Christian. Much smaller proportions\u00a0identified themselves as Muslim (4%), Hindu (2%), Sikh (1%), Jewish or\u00a0Buddhist (both less than 0.5%), and 2% of people followed another religion."
         }
     ],
-    "Test 3-2": [
+    "Chapter 3 - Test 2": [
         {
             "question": "Why did Henry VIII decide to divorce Catherine of Aragon?",
             "options": [
@@ -8375,7 +8375,7 @@ const questionsDB = {
             "explanation": "The burial place of one of the Anglo-Saxon kings was at Sutton Hoo in modern Suffolk."
         }
     ],
-    "Test 5-2": [
+    "Chapter 5 - Test 2": [
         {
             "question": "Where is the official home of the Prime Minister?",
             "options": [
@@ -8690,7 +8690,7 @@ const questionsDB = {
             "explanation": "To drive a car in the UK you need a driving licence, a valid motor insurance, a MOT certificate (for cars over three years old) and the road tax."
         }
     ],
-    "Test 13": [
+    "Mock Exam 13": [
         {
             "question": "What characterised the Bronze Age?",
             "options": [
@@ -9004,7 +9004,7 @@ const questionsDB = {
             "explanation": "It is a criminal offence to sell alcohol to anyone who is under 18 or to buy alcohol for people who are under the age of 18. (There is one exception: people aged 16 or over can drink alcohol with a meal in a hotel or restaurant."
         }
     ],
-    "Test 40": [
+    "Mock Exam 40": [
         {
             "question": "Which country invented rugby?",
             "options": [
@@ -9319,7 +9319,7 @@ const questionsDB = {
             "explanation": "Prince William is also known as the Prince of Wales."
         }
     ],
-    "Test 11": [
+    "Mock Exam 11": [
         {
             "question": "Who succeeded Theresa May as Prime Minister on the 24th July 2019?",
             "options": [
@@ -9635,7 +9635,7 @@ const questionsDB = {
             "explanation": "The Brit Awards is an annual event that gives awards in a range of categories, such as best British group and best British solo artist."
         }
     ],
-    "Test 29": [
+    "Mock Exam 29": [
         {
             "question": "Where was William Shakespeare born?",
             "options": [
@@ -10029,6 +10029,7 @@ const els = {
     // Custom Dates
     customDateYear: document.getElementById('customDateYear'),
     customDateEvent: document.getElementById('customDateEvent'),
+    backToMenuBtn: document.getElementById('backToMenuBtn'),
     addCustomDateBtn: document.getElementById('addCustomDateBtn'),
     
     // Dashboard
@@ -10104,6 +10105,18 @@ function setupEventListeners() {
     });
     
     // Custom Dates
+    
+    // Back to Menu
+    els.backToMenuBtn.addEventListener('click', () => {
+        if (appState.currentQuestionIndex < appState.currentTest.length - 1) {
+            if (!confirm("Are you sure you want to abandon the current test? Your progress will be lost.")) {
+                return;
+            }
+        }
+        clearInterval(appState.examTimer);
+        switchTab('practice');
+    });
+
     els.addCustomDateBtn.addEventListener('click', () => {
         const year = els.customDateYear.value.trim();
         const event = els.customDateEvent.value.trim();
@@ -10251,39 +10264,80 @@ function updateStreak() {
 // Test Selector
 function populateTestSelector() {
     els.testSelector.innerHTML = '';
-    Object.keys(questionsDB).forEach((key, index) => {
-        const btn = document.createElement('button');
-        btn.className = 'btn btn-secondary';
-        
-        // Check if recommended today
-        let isRecommended = false;
-        if (appState.studyPlan) {
-            const today = new Date();
-            today.setHours(0,0,0,0);
-            appState.studyPlan.forEach(day => {
-                if (new Date(day.date).getTime() === today.getTime()) {
-                    day.tasks.forEach(t => {
-                        if (t.type === 'test' && t.testId === key && !t.completed) {
-                            isRecommended = true;
-                        }
-                    });
-                }
-            });
+    
+    // Group keys
+    const mockExams = [];
+    const chapterTests = {};
+    
+    Object.keys(questionsDB).forEach(key => {
+        if (key.startsWith("Mock Exam")) {
+            mockExams.push(key);
+        } else if (key.startsWith("Chapter")) {
+            const chapterNum = key.split('-')[0].replace('Chapter ', '').trim();
+            if (!chapterTests[chapterNum]) chapterTests[chapterNum] = [];
+            chapterTests[chapterNum].push(key);
+        } else {
+            mockExams.push(key);
         }
-        if (isRecommended) btn.classList.add('btn-recommended');
+    });
+    
+    // Sort Mock Exams
+    mockExams.sort((a, b) => {
+        const numA = parseInt(a.replace(/\D/g, '')) || 0;
+        const numB = parseInt(b.replace(/\D/g, '')) || 0;
+        return numA - numB;
+    });
+    
+    // Create sections
+    const createSection = (title, keys) => {
+        if (keys.length === 0) return;
+        const section = document.createElement('div');
+        section.style.marginBottom = '30px';
         
-        btn.innerText = `Practice ${key}`;
-        btn.onclick = () => startTest(questionsDB[key], key);
-        els.testSelector.appendChild(btn);
-    });}
-
-function startRandomExam() {
-    // Collect all questions and pick 24 random
-    let allQ = [];
-    Object.values(questionsDB).forEach(arr => allQ = allQ.concat(arr));
-    allQ.sort(() => Math.random() - 0.5);
-    const examQuestions = allQ.slice(0, 24);
-    startTest(examQuestions);
+        const header = document.createElement('h3');
+        header.innerText = title;
+        header.style.marginBottom = '15px';
+        header.style.borderBottom = '2px solid var(--primary-color)';
+        header.style.paddingBottom = '5px';
+        section.appendChild(header);
+        
+        const grid = document.createElement('div');
+        grid.className = 'test-grid';
+        grid.style.display = 'grid';
+        grid.style.gridTemplateColumns = 'repeat(auto-fill, minmax(150px, 1fr))';
+        grid.style.gap = '15px';
+        
+        // Check for daily recommended
+        const dailyTests = getDailyTestRecommendation();
+        
+        keys.forEach(key => {
+            const btn = document.createElement('button');
+            btn.className = 'btn';
+            btn.innerText = key;
+            
+            if (dailyTests.includes(key)) {
+                btn.classList.add('btn-recommended');
+            }
+            
+            btn.onclick = () => startTest(questionsDB[key], key);
+            grid.appendChild(btn);
+        });
+        
+        section.appendChild(grid);
+        els.testSelector.appendChild(section);
+    };
+    
+    createSection("Full Mock Exams", mockExams);
+    
+    Object.keys(chapterTests).sort().forEach(ch => {
+        // Sort within chapter
+        chapterTests[ch].sort((a, b) => {
+            const numA = parseInt(a.split('-')[1]) || 0;
+            const numB = parseInt(b.split('-')[1]) || 0;
+            return numA - numB;
+        });
+        createSection(`Chapter ${ch} Tests`, chapterTests[ch]);
+    });
 }
 
 function startTest(questions, testId=null) {
