@@ -10730,3 +10730,12 @@ function getDailyTestRecommendation() {
     
     return uncompleted.slice(0, appState.studyPlan.testsPerDay || 2);
 }
+
+
+function startRandomExam() {
+    const mockKeys = Object.keys(questionsDB).filter(k => k.startsWith("Mock Exam"));
+    if (mockKeys.length === 0) return alert("No Mock Exams available.");
+    const randomKey = mockKeys[Math.floor(Math.random() * mockKeys.length)];
+    startTest(questionsDB[randomKey], randomKey);
+}
+
