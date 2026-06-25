@@ -10710,3 +10710,23 @@ function checkOffPlanTask(type, testId = null) {
         populateTestSelector();
     }
 }
+
+
+function getDailyTestRecommendation() {
+    if (!appState.studyPlan || !appState.studyPlan.active) return [];
+    
+    const allKeys = Object.keys(questionsDB);
+    
+    // Prioritize Mock Exams, then Chapters
+    const sortedKeys = allKeys.sort((a, b) => {
+        const isMockA = a.startsWith('Mock');
+        const isMockB = b.startsWith('Mock');
+        if (isMockA && !isMockB) return -1;
+        if (!isMockA && isMockB) return 1;
+        return 0;
+    });
+    
+    const uncompleted = sortedKeys.filter(k => !appState.studyPlan.completedTests.includes(k));
+    
+    return uncompleted.slice(0, appState.studyPlan.testsPerDay || 2);
+}
